@@ -17,7 +17,7 @@ def after_install():
     ensure_contact_custom_fields()
     create_roles()   
     create_users_profiles()
-    install_ffmpeg()
+    # install_ffmpeg()
 # =================================================================================
 def create_roles():
     if not frappe.db.exists("Role", "Chat Support"):
